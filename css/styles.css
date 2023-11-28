@@ -100,9 +100,9 @@ a {
   margin-left: 10px;
 }
 
-@media screen and (mid-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .link-arrow {
-    font-size: 1.5r;
+    font-size: 1.5rem;
   }
 }
 
@@ -707,6 +707,14 @@ a {
 .nav__brand {
   transform: translateY(5px);
 }
+
+.nav__brand img {
+  width: 70%;
+  height: 50%;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
 
 @media screen and (min-width: 768px) {
   .nav__toggler {
